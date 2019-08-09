@@ -75,9 +75,16 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: next
 
+# 自动生成sitemap
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+    path: baidusitemap.xml
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/yxyuxuan/yxyuxuan.github.io.git
-  branch: master
+  repo: 
+       github: git@github.com:yxyuxuan/yxyuxuan.github.io.git,master
+       coding: git@git.dev.tencent.com:yxyuxuan/yxyuxuan.git,master
