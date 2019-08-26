@@ -31,7 +31,7 @@ git commit -m "inital commit"
 git push -u origin master
 ```
 
-##### Edit commit：
+##### Edit commit & git reset：
 
 ​	git commit --amend //此时会进入默认vim编辑器，修改注释完毕后保存就好了。
 
@@ -39,7 +39,9 @@ git push -u origin master
 
 ​	git reset --hard HEAD^ //删除工作空间改动代码，撤销commit，撤销git add . 
 
-​	git reset --mixed HEAD^ //不删除工作空间改动代码，撤销commit，并且撤销git add .
+​	git reset --mixed HEAD^ //不删除工作空间改动代码，撤销commit，并且撤销git add 		
+
+​	git reset –soft commitid 后面添加comiit_id指明回退到哪个版本
 
 ​	git reset --mixed HEAD^ 和 git reset HEAD^ 效果是一样的
 
@@ -129,5 +131,23 @@ git cherry-pick 09cc4ecb0c25a1968633b27d3ae60940768f117d（commit id）
    ```
    git push origin v0.11 
    ```
+
+   ##### git revert 的用法:
+
+   > revert是撤回指定版本的内容并提交一个新的commit，不影响之前提交的内容
+
+    git revert HEAD     //撤销前一次 commit
+
+   git revert HEAD^   //撤销前前一次 commit
+
+   git revert commit-id //撤回指定commit-id
+
+   ##### git reset 和 git revert 的区别
+
+   git reset 简单暴力的将版本置回到某个版本，现在有过a、b、c、d四次提交，提交顺序为a、b、c、d，现在为d。
+
+   使用git reset恢复到a之后，看git log，就剩下a, 发现 b、c、d都不见了。
+
+   使用git revert恢复到a之后，看git log，会发现a、b、c、d都在，多了e操作，e操作为“revert a”。
 
    
