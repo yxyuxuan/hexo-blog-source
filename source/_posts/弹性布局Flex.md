@@ -2,7 +2,7 @@
 title: 弹性布局Flex
 date: 2019-08-27 15:20:23
 tags: CSS
-categories：前端
+categories: 前端
 ---
 
 > 写了这末多项目了，每个项目的页面布局都离不开Flex布局，就连前段时间写的小程序项目都是用的Flex布局，下面简单整理一下Flex布局相关知识点。
@@ -197,4 +197,3 @@ Flex容器默认有两根轴，主轴和交叉轴，交叉轴垂直于主轴。
 在Flex布局中，flex子元素的设置float，clear以及vertical-align属性都是没有用的。
 
 Flexbox布局最适合小规模布局（一维布局），而Grid布局则适用于更大规模的布局（二维布局）。
-
