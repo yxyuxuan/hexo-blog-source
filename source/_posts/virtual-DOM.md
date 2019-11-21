@@ -1,21 +1,15 @@
 ---
 title: Virtual DOM
-date: 2019-10-18 15:28:03
+date: 2019-10-20 15:28:03
 tags: 前端
 categories: 前端
 ---
-
-
-
-> 虚拟DOM的能够提高页面的渲染效率，下面整理了一下关于虚拟DOM的相关内容。
-
-> 
 
 > 利用虚拟DOM能够提高页面的渲染效率，目前流行的前端框架React和Vue都引用了虚拟DOM。下面整理了一下关于虚拟DOM的相关内容
 
 ## 关于DOM
 
-DOM（Document Olibject Modal）文档对象模型就是页面上的元素节点。
+DOM（Document Object Modal）文档对象模型就是页面上的元素节点。
 
 原生JS是命令式的开发，如果需要改变DOM只能一步步的对DOM进行增删改查，可能很多代码都在操作DOM。
 
