@@ -1,7 +1,9 @@
-title: 前后端接口交互ajax、axios、fetch
-date: 2020-01-02 15:05:27
+---
+title: 前后端接口交互(ajax、axios、fetch)
+date: 2020-01-01 15:36:23
 tags: 前端
 categories: 前端
+---
 
 ## ajax
 
