@@ -1,5 +1,5 @@
 ---
-title: HTTPS是怎样保证安全？
+title: HTTPS怎样保证安全连接？
 date: 2020-07-10 11:34:58
 tags: 网络
 categories: 网络
@@ -7,9 +7,7 @@ categories: 网络
 
 > 我们能看到HTTPS的网站，在浏览器的地址栏会出现一个带锁的标记，鼠标点击小锁提示连接是安全的，证书有效等信息。HTTPS是怎样保证连接安全的呢？
 
-![safe](D:\hexo-blog-source\source\_posts\HTTPS是怎样保证安全？\safe.png)
-
-
+![](<https://yxyuxuan.github.io/Markdown-repository/images/https-safe.png>)
 
 ## HTTP存在的问题：
 

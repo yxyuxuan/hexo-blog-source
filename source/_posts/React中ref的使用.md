@@ -2,7 +2,7 @@
 title: React中ref的使用
 date: 2018-03-17 13:21:35
 tags: React
-categories: 前端
+categories: React
 ---
 
 > 第一次接触ref是看到同事写的代码中用了ref，感觉好神奇，竟然可以获取到input的输入值，后来因为有次需要获取子组件中的数据，找来老大帮忙，他也用了ref,这次是用在组件上。今天整理了一些关于ref的内容，写了这篇博客。
