@@ -9,26 +9,35 @@ categories: Git
 
 ##### Clone repository：
 
-```
+```json
 git clone 项目链接
 ```
 
 ##### Git global setup:
 
-```
+```json
 git config --global user.name "于禤"
 git config --global user.email "1924442613@qq.com"
 ```
 
 ##### Push an existing folder:
 
-```
+```json
 cd existing_floder
 git init
 git remote add origin 项目链接
 git add .
 git commit -m "inital commit"
 git push -u origin master
+```
+
+##### git checkout :
+
+```json
+git checkout -b newBranchName //在当前分支的基础上创建一个新的分支
+git checkout dev //切换到dev分支
+
+git checkout .  //撤销本地所有的修改，恢复到未修改状态。
 ```
 
 ##### Edit commit & git reset：
@@ -51,7 +60,7 @@ git push -u origin master
 
 ##### 项目A的develop分支合并到项目B中:
 
-```
+```json
 //在项目B下添加远程项目A
 git remote add upstream 项目A的链接
 
@@ -63,7 +72,7 @@ git merge --no-ff --log upstream/develop
 
 ##### 项目A的某次提交合并到项目B中:
 
-```
+```json
 //在项目B下添加远程项目A
 git remote add upstream 项目A的链接
 
@@ -78,18 +87,22 @@ git cherry-pick 09cc4ecb0c25a1968633b27d3ae60940768f117d（commit id）
 首先切换到v0.18分支，拉下最新的代码
 然后切换到develop分支，拉下最新的代码然后执行下面的步骤：
 
-	git merge --no-ff v0.18
-	(如果没有冲突则不用进行下面的操作)
-	
-	解决冲突后执行以下命令： 
-	git add .
-	git commit  //进入另一个页面查看信息后退出按键组合是：Esc -> Shift -> : -> wq
-	git push origin develop
+```json
+git merge --no-ff v0.18
+(如果没有冲突则不用进行下面的操作)
+
+解决冲突后执行以下命令： 
+git add .
+git commit  //进入另一个页面查看信息后退出按键组合是：Esc -> Shift -> : -> wq
+git push origin develop
+```
 ##### 创建develop分支：
 
-	git fetch
-	git checkout -b develop
-	git push origin develop
+```json
+git fetch
+git checkout -b develop
+git push origin develop
+```
 ##### 解决提交代码冲突：
 
   第一步：找到冲突的文件，合并冲突的内容。

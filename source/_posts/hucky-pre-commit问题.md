@@ -1,11 +1,11 @@
 ---
 title: 关于husky > pre-commit问题
-date: 2020-08-29 14:22:29
+date: 2020-08-24 22:22:29
 tags: Git
 categories: Git
 ---
 
-> 最近入职了新的公司，接手了一个新项目。git commit时遇到一个问题:  husky > pre-commit (node v12.13.0) Stashing changes...，检查后了解到是项目中安装了husky。
+> 今天入职新的公司，接手了一个新项目。git commit时遇到一个问题:  husky > pre-commit (node v12.13.0) Stashing changes...，检查后了解到是项目中安装了husky。
 
 ```json
 $ git commit -m "修改内容"
