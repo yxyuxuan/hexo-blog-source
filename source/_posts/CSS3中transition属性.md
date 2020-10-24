@@ -1,8 +1,8 @@
 ---
 title: CSS3中transition属性
 date: 2017-08-02 10:28:00
-tags: CSS3
-categories: 前端
+tags: CSS
+categories: CSS
 ---
 ### 一.transition描述：
 W3C标准中对css3的transition这是样描述的：“css的transition允许css的属性值在一定的时间区间内平滑地过渡。这种效果可以在鼠标单击、获得焦点、被点击或对元素任何改变中触发，并圆滑地以动画效果改变CSS的属性值。”

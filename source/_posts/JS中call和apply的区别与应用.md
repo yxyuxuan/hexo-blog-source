@@ -2,7 +2,7 @@
 title: JS中call和apply的区别与应用
 date: 2016-09-10 11:44:30
 tags: JavaScript
-categories: 前端
+categories: JavaScript
 ---
 ## 一.方法定义
 ### 1、call()方法:

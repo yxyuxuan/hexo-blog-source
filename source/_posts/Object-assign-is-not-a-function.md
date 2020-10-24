@@ -2,7 +2,7 @@
 title: Object.assign is not a function
 date: 2019-08-09 14:51:03
 tags: JavaScript
-categories: 前端
+categories: JavaScript
 ---
 
 > 今天安卓说发现低版本的手机打不开我写的h5页面，看了他电脑上的运行日志发现了问题，Uncaught TypeError: Object.assign is not a function

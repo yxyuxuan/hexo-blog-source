@@ -2,7 +2,7 @@
 title: Mobx与Redux的区别
 date: 2018-03-31 13:38:23
 tags: React
-categories: 前端
+categories: React
 ---
 
 > 刚进公司时用的是Redux，最近老大让我看Mobx,准备以后的开发用Mobx替换Redux。今天整理了一下Redux和Mobx的一些区别。

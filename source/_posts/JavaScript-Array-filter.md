@@ -2,7 +2,7 @@
 title: JavaScript 中Array数组的filter()方法
 date: 2017-11-12 20:13:50
 tags: JavaScript
-categories: 前端
+categories: JavaScript
 ---
 
 ### 1. Array.prototype.filter()

@@ -2,7 +2,7 @@
 title: block，inline和inline-block概念和区别
 date: 2016-07-27 23:50:48
 tags: CSS
-categories: 前端
+categories: CSS
 ---
 
 ## 总体概念

@@ -1,8 +1,8 @@
 ---
 title: Promise对象
 date: 2018-10-15 15:43:42
-tags: Javascript
-categories: 前端
+tags: JavaScript
+categories: JavaScript
 ---
 
 >  Promise 是异步编程的一种解决方案，比传统的解决方案——回调函数和事件——更合理和更强大 。 Promise出现之前解决异步编程用回调，当出现按顺序请求多个异步代码时就只能用回调嵌套来解决，当请求的异步代码很多时就会出现 ”回调地狱“。Promise的出现使得回调看起来变得可控。使用async，await使得异步代码看起来是在同步运行。

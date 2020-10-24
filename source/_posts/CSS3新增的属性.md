@@ -2,7 +2,7 @@
 title: CSS3新增的属性
 date: 2016-09-17 19:57:02
 tags: CSS3
-categories: 前端
+categories: CSS
 ---
 
 **注意：**

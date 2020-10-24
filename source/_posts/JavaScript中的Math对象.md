@@ -2,7 +2,7 @@
 title: JavaScript中的Math对象
 date: 2016-09-16 22:07:04
 tags: JavaScript
-categories: 前端
+categories: JavaScript
 ---
 ## Math的描述
 

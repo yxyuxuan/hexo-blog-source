@@ -1,8 +1,8 @@
 ---
-title: Javascript中数组的深拷贝和浅拷贝
+title: JavaScript中数组的深拷贝和浅拷贝
 date: 2020-02-19 15:01:48
 tags: JavaScript
-categories: 前端
+categories: JavaScript
 ---
 
 > 最近开发的时候遇到了数组拷贝的问题，数组a是原数组，数组b是拷贝的数组，当操作数组b的时候，数组a也发生了变化， 然后想到了数组深拷贝和浅拷贝。

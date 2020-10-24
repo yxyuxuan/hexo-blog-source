@@ -1,8 +1,8 @@
 ---
 title: JS数据类型的判断
 date: 2020-02-13 21:44:37
-tags: Javascript
-categories: 前端
+tags: JavaScript
+categories: JavaScript
 ---
 
 ### typeof

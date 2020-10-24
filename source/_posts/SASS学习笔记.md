@@ -2,7 +2,7 @@
 title: SASS学习笔记
 date: 2017-04-28 13:06:29
 tags: SASS
-categories: 前端
+categories: CSS
 ---
 
 ### 一.什么是sass?

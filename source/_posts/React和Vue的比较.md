@@ -1,8 +1,8 @@
 ---
 title: React和Vue的比较
 date: 2020-05-08 12:08:49
-tags: 前端
-categories: 前端
+tags: React
+categories: React
 ---
 
 > 在面对自学前端三大主流框架（React、Vue、Angular）选择时，相信不少人选择了Vue。

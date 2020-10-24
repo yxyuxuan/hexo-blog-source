@@ -2,7 +2,7 @@
 title: JS中的arguments对象
 date: 2016-09-10 09:23:55
 tags: JavaScript
-categories: 前端
+categories: JavaScript
 ---
 
 **1.** 在JavaScript中，arguments对象是比较特别的一个对象，实际上是当前函数的一个内置属性。arguments非常类似Array，但实际上又不是一个Array实例。可以通过如下代码得以证实（当然，实际上，在函数funcArg中，调用arguments是不必要写成funcArg.arguments，直接写arguments即可）。

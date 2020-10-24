@@ -1,7 +1,7 @@
 ---
 title: js中的apply、call和bind
 date: 2020-01-15 13:59:45
-tags: Javascript
+tags: JavaScript
 categories: JavaScript
 ---
 

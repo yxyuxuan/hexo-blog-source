@@ -1,8 +1,8 @@
 ---
 title: ES5和ES6中的this指向
-date: 2020-08-10 21:19:14
-tags: Javascript
-categories: 前端
+date: 2020-09-10 21:19:14
+tags: JavaScript
+categories: JavaScript
 ---
 
 > 相信每个前端同学对于this指向都有过探索，虽然平时的开发中极少使用this，但是踩过坑以后都会意识到this指向的重要性，笔试的时候出现率是极高的......

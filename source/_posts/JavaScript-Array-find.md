@@ -2,7 +2,7 @@
 title: JavaScript 中Array数组的find()方法
 date: 2017-11-19 19:20:47
 tags: JavaScript
-categories: 前端
+categories: JavaScript
 ---
 
 ### 1. Array.prototype.find()

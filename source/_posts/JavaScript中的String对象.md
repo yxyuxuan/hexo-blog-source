@@ -2,7 +2,7 @@
 title: JavaScript中的String对象
 date: 2016-09-16 22:23:56
 tags: JavaScript
-categories: 前端
+categories: JavaScript
 ---
 
 

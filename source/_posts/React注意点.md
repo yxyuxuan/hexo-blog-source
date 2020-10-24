@@ -2,7 +2,7 @@
 title: React注意点
 date: 2016-10-19 20:10:40
 tags: React
-categories: 前端
+categories: React
 ---
 
 >**学习React时，碰到一些需要注意的地方。现整理如下：**

@@ -2,7 +2,7 @@
 title: JS中深拷贝的方法
 date: 2020-02-20 22:23:57
 tags: JavaScript
-categories: 前端
+categories: JavaScript
 ---
 
 > **浅拷贝：**复制变量的地址，所有地址对象都指向一个数据，而且所有地址对象都能修改这个数据。

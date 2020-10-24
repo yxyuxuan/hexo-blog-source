@@ -1,7 +1,7 @@
 ---
 title: 用webpack2.6.1构建vue2.3.4单文件组件实例
 date: 2017-03-30 19:11:27
-tags: webpack，vue.js
+tags: webpack
 categories: 前端
 ---
 

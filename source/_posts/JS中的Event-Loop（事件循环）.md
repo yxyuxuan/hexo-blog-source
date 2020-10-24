@@ -2,7 +2,7 @@
 title: JS中的Event-Loop（事件循环）
 date: 2019-11-21 14:21:03
 tags: JavaScript
-categories: 前端
+categories: JavaScript
 ---
 
 > Javascript是一门单线程的非堵塞的脚本语言，也是用来与浏览器交互的语言。

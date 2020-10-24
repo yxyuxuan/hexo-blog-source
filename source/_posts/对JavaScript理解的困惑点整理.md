@@ -2,7 +2,7 @@
 title: 对JavaScript理解的困惑点整理
 date: 2018-03-25 10:30:40
 tags: JavaScript
-categories: 前端
+categories: JavaScript
 ---
 
 

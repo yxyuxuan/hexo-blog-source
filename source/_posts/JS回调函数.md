@@ -1,8 +1,8 @@
 ---
 title: JS回调函数
 date: 2017-01-25 19:04:55
-tags: JS回调函数
-categories: 前端
+tags: JavaScript
+categories: JavaScript
 ---
 
 # js回调函数的理解

@@ -2,7 +2,7 @@
 title: React的ClassNames库的使用
 date: 2018-03-11 23:24:38
 tags: React
-categories: 前端
+categories: React
 ---
 
 当react原生动态添加多个className时就会报错，这时我们就可以利用classnames库添加多个className

@@ -2,7 +2,7 @@
 title: JavaScript中的Array数组
 date: 2016-09-16 22:14:29
 tags: JavaScript
-categories: 前端
+categories: JavaScript
 ---
 
 
@@ -25,6 +25,7 @@ categories: 前端
       数组是值的有序集合。每个值叫做一个元素，而每个元素在数组中有一个位置，以数字表示，称为索引。JavaScript数组是无类型：数组元素可以是任意类型，并且同一个数组中的不同元素也可能有不同的类型。 --《JavaScript权威指南(第六版)》
 
  
+
 
 
 ### 1.2 定义方式

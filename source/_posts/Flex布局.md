@@ -2,7 +2,7 @@
 title: Flex布局
 date: 2017-02-21 15:14:40
 tags: CSS3
-categories: 前端
+categories: CSS
 ---
 
 ### 1.flex布局是什么？

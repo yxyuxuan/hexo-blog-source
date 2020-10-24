@@ -1,8 +1,8 @@
 ---
 title: Virtual DOM
 date: 2019-10-20 15:28:03
-tags: 前端
-categories: 前端
+tags: React
+categories: React
 ---
 
 > 利用虚拟DOM能够提高页面的渲染效率，目前流行的前端框架React和Vue都引用了虚拟DOM。下面整理了一下关于虚拟DOM的相关内容

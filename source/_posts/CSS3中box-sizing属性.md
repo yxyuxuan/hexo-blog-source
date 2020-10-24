@@ -2,7 +2,7 @@
 title: CSS3中box-sizing属性
 date: 2016-09-18 20:36:11
 tags: CSS3
-categories: 前端
+categories: CSS
 ---
 
 **简介：**
