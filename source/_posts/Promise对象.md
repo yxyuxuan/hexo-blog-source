@@ -1,6 +1,6 @@
 ---
 title: Promise对象
-date: 2018-10-15 15:43:42
+date: 2019-10-15 15:43:42
 tags: JavaScript
 categories: JavaScript
 ---
@@ -39,9 +39,7 @@ promise.then(function(value) {
 
 **有了 Promise 对象，就可以将异步操作以同步操作的流程表达出来，避免了层层嵌套的回调函数**。此外，Promise 对象提供统一的接口，使得控制异步操作更加容易。
 
-
-
-Promise规范如下：
+**Promise规范如下：**
 
 - 一个promise可能有三种状态：**等待（pending）、已完成（fulfilled）、已拒绝（rejected）**
 
@@ -51,10 +49,52 @@ Promise规范如下：
 
 - then方法接受两个参数，第一个参数是成功时的回调，在promise由“等待”态转换到“完成”态时调用，另一个是失败时的回调，在promise由“等待”态转换到“拒绝”态时调用。同时，then可以接受另一个promise传入，也接受一个“类then”的对象或方法，即thenable对象。
 
-  
 
-promise 的缺点：
+**promise 的缺点：**
 
 - 无法取消 Promise，一旦新建它就会立即执行，无法中途取消。
 - 如果不设置回调函数，Promise 内部抛出的错误，不会反应到外部。第三，当处于 Pending 状态时，无法得知目前进展到哪一个阶段（刚刚开始还是即将完成）。
+
+**用代码实现Promise：**
+
+```javascript
+function myPromise(constructor){ let self=this;
+  self.status="pending" //定义状态改变前的初始状态 
+  self.value=undefined;//定义状态为resolved的时候的状态 
+  self.reason=undefined;//定义状态为rejected的时候的状态 
+  function resolve(value){
+    //两个==="pending"，保证了了状态的改变是不不可逆的 
+    if(self.status==="pending"){
+      self.value=value;
+      self.status="resolved"; 
+    }
+  }
+  function reject(reason){
+     //两个==="pending"，保证了了状态的改变是不不可逆的
+     if(self.status==="pending"){
+        self.reason=reason;
+        self.status="rejected"; 
+      }
+  }
+  //捕获构造异常 
+  try{
+      constructor(resolve,reject);
+  }catch(e){
+    reject(e);
+    } 
+}
+myPromise.prototype.then=function(onFullfilled,onRejected){ 
+  let self=this;
+  switch(self.status){
+    case "resolved": onFullfilled(self.value); break;
+    case "rejected": onRejected(self.reason); break;
+    default: 
+  }
+}
+
+// 测试
+var p=new myPromise(function(resolve,reject){resolve(1)}); 
+p.then(function(x){console.log(x)})
+//输出1
+```
 

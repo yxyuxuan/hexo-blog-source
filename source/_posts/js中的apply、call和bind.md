@@ -26,10 +26,10 @@ categories: JavaScript
   let person = new Person('lily');
   person.showName(); // lily
   
-  //使用call
+  //使用apply
   person.showName.apply(obj,[param1, param2, param3]); // lucy
   
-  //使用apply
+  //使用call
   person.showName.call(obj,param1, param2, param3); // lucy
   
   //使用bind
